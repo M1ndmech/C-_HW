@@ -14,6 +14,8 @@ void PrintMatrix (float [,] array)
     }
 }
 
+
+
 int Prompt(string message)
 {
     System.Console.Write($"{message}>");
