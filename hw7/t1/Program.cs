@@ -27,7 +27,7 @@ float NextFloat(Random rand, double minValue, double maxValue)
         return Convert.ToSingle(randNumber);
     }
 
-float [,] GenerateMatrix (int rows, int columns, int minRange, int maxRange)
+float [,] GenerateFloatMatrix (int rows, int columns, int minRange, int maxRange)
 {
     float [,] array = new float [rows, columns];
     for (int i = 0; i < array.GetLength(0); i++)
@@ -47,5 +47,5 @@ int columnsInput = Prompt("Введите количество столбцов 
 int min = Prompt("Введите минимальное значение для ячеек массива");
 int max = Prompt("Введите максимальное значение для ячеек массива");
 
-float [,] matrix1 = GenerateMatrix(rowsInput, columnsInput, min, max);
+float [,] matrix1 = GenerateFloatMatrix(rowsInput, columnsInput, min, max);
 PrintMatrix (matrix1);
