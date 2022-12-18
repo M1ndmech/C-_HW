@@ -50,7 +50,6 @@ int [,] GenerateSpiralMatrix (int rowsColumns)
                     }
     lenReducable--;    
     }
-    
     return array;
 }
 
